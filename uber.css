@@ -1,0 +1,539 @@
+
+
+.main-body{
+margin:0px;
+height:2250px;
+}
+body{
+    margin:0;
+}
+.header{
+    width: 100%;
+    height: 64px;
+}
+.logo{
+   
+    font-size: large;
+    font-weight: 400;
+    background-color:black;
+    float:left;
+    color:#fff;
+    margin: left 0px;;
+}
+
+   
+
+.leftpart{
+    width: 50%;
+    height: 64px;
+   
+    float:left;
+    display:flex;
+    margin-left: 0%;
+    justify-content:space-between;
+      align-items: center;
+    background-color: black;
+    color: #fff;
+
+
+}
+
+.rightpart{
+    width:50%;
+    height: 64px;
+    background-color: black;
+    float:left;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+
+
+.rightpart button{
+ width:100px;
+ height:36px;
+ background-color:#fff ;
+ color:black;
+ font-weight:600;
+ border:none;
+ border-radius:22px;
+ margin-top: 12px;
+}
+
+.leftpart li{
+    display:inline-block;
+    list-style:none;
+    padding:0px 20px;
+    
+}
+li a{
+    text-decoration: none;
+    color:#fff;
+    align-items: center;
+}
+.rightpart li{
+    display:inline-block;
+    list-style:none;
+    padding:0px 20px;
+  
+}
+   
+
+.fa-solid fa-grid{
+   
+transform: scale(1.5);
+color:#fff;
+
+}
+.homepage{
+    width:100%;
+    height:575px;
+}
+  
+  
+.bodybg{
+    width:100%;
+    height:600px;
+    background-repeat: no-repeat;
+    background-image: url("rider.png");
+    background-size:1200px;
+   
+background-size: cover;
+}
+
+.form{
+    width:41%;
+    height: 496px;
+    justify-content:center;
+    border: form 1px solid #FFFFFF;
+    padding-left:50px;
+    padding-top:50px;;
+}
+
+
+.textbody1{
+    display: flex;
+    
+    align-items: center;
+    width:500px;
+    height: 40px;
+    
+    border:none;
+   
+    
+    background-color:#F6F6F6 ;
+    font-weight: normal;
+font-size:16px;
+margin-bottom:0px;
+
+}
+.textbody1 i{
+    margin-left: 20px;
+    margin-right: 20px;
+font-size: 8px;
+}
+.textbody1_input{
+margin-bottom: 5px;
+    outline: none;
+    width:400px;
+     background-color:#F6F6F6 ;
+    height: 40px;
+        border-width: 0ch;
+            font-family:  UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    
+
+
+}
+
+
+.bodysub2{
+    
+    height: 300px;
+display: grid;
+justify-content: center;
+grid-template-rows: repeat(3,1fr);
+grid-row-gap: 10px;
+}
+
+.bodysub2_button{
+    float: left;
+    width: 100%;
+    height: 60px;
+}
+
+.formhead{
+   
+    width:100%;
+    background-color: #fff;
+    height:25%
+}
+.formheadcar{
+    display: flex;
+ font-size: 18px;
+ line-height: 33px;
+  align-items: center;
+    justify-content: center;
+    text-align: center;
+    width:50%;
+    height: 100%;
+    background-color: #fff;
+    float:left;
+    font-weight: 500;
+    font-family:  UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+   
+
+}
+.formheaddrive{
+    display: flex;
+   font-size: 16px;
+       align-items: center;
+     justify-content: center;
+    width:50%;
+    height:100%;
+    font-weight:500;
+    float:left;
+    font-family:  UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    text-align: center;
+  
+}
+.formbody{
+    float: left;
+    height:75%;
+    width:100%;
+    background-color: #fff;
+
+}
+.Request{
+    width:170px;
+    height:48px;
+    background-color: #000000;
+    color: #fff;
+    border:none;
+    text-align: center;
+    border-radius:12px;
+    padding-left: 0%;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 89px;
+    font-family:  UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.Schedule{
+    width:170px;
+    height:48px;
+    background-color: #EEEEEE;;
+    color:#000000 ;
+    font-family:  UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border:none;
+    border-radius: 12px;
+    margin:0px;
+    font-size:17px;
+    margin-left: 30px;
+    font-weight: 500;
+    
+}
+.ride{
+    font-family:UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+padding: 0;
+font-size: 47px;
+margin-top:0px;
+margin-bottom: 58px;
+
+text-align: center;
+
+}
+.btn{
+   
+    display:flex;
+    justify-content: center;
+}
+.inputcontainer{
+    display:flex;
+    margin-bottom: 15px;
+   
+}
+.uberbusiness{
+    width:100%;
+    height:330px;
+    background-image: url("uberbusinesshp.png");
+    background-color: aquamarine;
+    background-size: cover;
+}
+h1{
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    padding-left: 75px;
+    padding-top: 65px;
+   
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.business{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    padding-top:10px;
+    padding-left: 79px;
+    line-height: 24px;
+}
+.seehow{
+    background-color:#000000;
+    margin-left: 74px;;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    width:120px;
+    height:50px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+margin-top: 12px;
+
+}
+.RideUber{
+    width:100%;
+    height:100px;
+    background-color:#FFFFFF;
+}
+h2{
+    margin: 0;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+margin-top:0px;
+padding-top: 55px;
+padding-left: 87px;
+font-size: 34px;
+font-weight: 500;
+}
+.automoto{
+    width:100%;
+    height:265px;
+    background-color: #FFFFFF;
+}
+.uberauto{
+    width:50%;
+    height:265px;
+    background-color:#FFFFFF;
+    float:left;
+   
+}
+.autoimage{
+    height:150px;
+    width:150px;
+    padding-left: 58px;
+padding-top: 58px;;
+}
+.autohead{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+padding-top: 0px;
+padding-left: 30px;
+font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 60px;
+}
+.autorides{
+     font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 18px;
+padding-left: 34px;
+padding-top: 0px;
+}.autotext{
+    width:380px;
+    float:left;
+    height:265px;
+    background-color: #FFFFFF;;
+}
+.imageauto{
+    height:265px;
+    background-color: #FFFFFF;;
+    width:207px;
+    float:left;
+}
+.iconarrow{
+    height:265px;
+    width:55px;
+    background-color: #FFFFFF;;
+    float:left;
+}
+.iconarrow i{
+    font-size: large;
+    color:#000000;
+    text-align: center;
+    padding-top: 132px;
+}
+.ubermoto{
+    width:50%;
+    height:265px;
+    background-color: #FFFFFF;;
+    float:left;
+}
+.imagemoto{
+    height:265px;
+    background-color: #FFFFFF;;
+    width:207px;
+    float:left;
+}
+.motoimage{
+    height:150px;
+    width:150px;
+    padding-left: 58px;
+padding-top: 58px;;
+}
+.mototext{
+    width:380px;
+    float:left;
+    height:265px;
+    background-color: #FFFFFF;;
+}
+.motohead{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+padding-top: 0px;
+padding-left: 30px;
+font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 60px;
+}
+.motorides{
+font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 18px;
+padding-left: 23px;;
+padding-top: 0px;
+}
+.Rentals-intercity{
+    width:100%;
+    height:265px;
+    background-color: #FFFFFF;;
+}
+.uberrentals{
+    width:50%;
+    height:265px;
+    background-color: #FFFFFF;;
+    float:left;
+   
+}
+.rentalimage{
+    height:150px;
+    width:150px;
+    padding-left: 58px;
+padding-top: 58px;;
+}
+.rental-head{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+padding-top: 0px;
+padding-left: 30px;
+font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 60px;
+}
+.rental-rides{
+     font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 18px;
+padding-left: 34px;
+padding-top: 0px;
+}.rentaltext{
+    width:380px;
+    float:left;
+    height:265px;
+    background-color: #FFFFFF;;
+}
+.image-rental{
+    height:265px;
+    background-color: #FFFFFF;;
+    width:207px;
+    float:left;
+}
+.iconarrow{
+    height:265px;
+    width:55px;
+    background-color: #FFFFFF;;
+    float:left;
+}
+.iconarrow i{
+    font-size: large;
+    color:#000000;
+    text-align: center;
+    padding-top: 132px;
+}
+.uberintercity{
+    width:50%;
+    height:265px;
+    background-color: #FFFFFF;;
+    float:left;
+}
+.image-inter{
+    height:265px;
+    background-color: #FFFFFF;;
+    width:207px;
+    float:left;
+}
+.interimage{
+    height:150px;
+    width:150px;
+    padding-left: 58px;
+padding-top: 58px;;
+}
+.intercity-text{
+    width:380px;
+    float:left;
+    height:265px;
+    background-color: #FFFFFF;
+}
+.interhead{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+padding-top: 0px;
+padding-left: 30px;
+font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 60px;
+}
+.city-rides{
+font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 18px;
+padding-left: 23px;;
+padding-top: 0px;
+}
+.Subhead{
+    width:100%;
+    height:120px;
+    background-color: #FFFFFF;;
+
+}
+.motiveimage{
+    height:350px;
+    width:100%;
+    background-color: #FFFFFF;;
+}
+.motiveimage1{
+    width:50%;
+    height:400px;
+    background-color: #FFFFFF;;
+    float:left;
+}
+.motiveimage2{
+    width:50%;
+    height:400px;
+    background-color: #FFFFFF;
+    float:left;
+}
+.sizeimg{
+   width:500px;
+   height:350px;
+   margin-left: 100px;
+   padding-top: 25px;
+}
+.end{
+    width:100%;
+    height: 50px;
+    background-color: #000000;
+}
+.end2{
+    width:100%;
+    height: 107px;
+    background-color: #fff;
+}
